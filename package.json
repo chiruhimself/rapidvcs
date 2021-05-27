@@ -1,0 +1,36 @@
+{
+  "name": "rapidvcs",
+  "version": "1.0.0",
+  "description": "RapidVCS is a Cross Platform Version Control System created from Scratch for Rapid & Easy Source Management, Development and Team Collaboration.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "rapid": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "version-control-system"
+  ],
+  "author": "RapidVCS",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.2",
+    "chalk": "^2.4.2",
+    "data-store": "^3.1.0",
+    "debug": "^4.1.1",
+    "empty-folder": "^2.0.3",
+    "express": "^4.16.4",
+    "figlet": "^1.2.1",
+    "firebase": "^5.10.0",
+    "inquirer": "^6.3.1",
+    "ncp": "^2.0.0",
+    "recursive-copy": "^2.0.10",
+    "rimraf": "^2.6.3",
+    "shelljs": "^0.8.3"
+  }
+}
